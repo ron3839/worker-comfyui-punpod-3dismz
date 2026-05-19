@@ -15,6 +15,8 @@ import socket
 import traceback
 import logging
 
+runpod.serverless.start()
+
 from network_volume import (
     is_network_volume_debug_enabled,
     run_network_volume_diagnostics,
